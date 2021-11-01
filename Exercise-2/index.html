@@ -14,8 +14,8 @@
         <a href="#"><h2>Boo-King.com</h2></a>
         <section id='website-settings'>
             <a href="#"><h3>GBP</h3></a>
-            <a href="#"><img id='uk-flag' src="assets/images/UK-flag.png" alt=""></a>
-            <a href="#"><img id= 'question-mark' src="assets/images/white-question-mark.png"  alt=""></a>
+            <a href="#"><img id='uk-flag' src="assets/images/UK-flag.png" alt="UK flag"></a>
+            <a href="#"><img id= 'question-mark' src="assets/images/white-question-mark.png"  alt="Question Mark"></a>
             <button id='button-type1'>List your property</button>
             <button class='button-type2'>Register</button>
             <Button class='button-type2'>Sign in</Button>
@@ -24,27 +24,27 @@
 
     <section id='header-bottom'>
         <button class='header-icons'>
-            <img id= 'stay-icon' src="assets/images/transparent-bed-icon.png" alt="">
+            <img id= 'stay-icon' src="assets/images/transparent-bed-icon.png" alt="Stay Icon">
             <p>Stays</p>
         </button>
         <button class='header-icons'>
-            <img id= 'flights-icon' src="assets/images/airplane-icon.png" alt="">
+            <img id= 'flights-icon' src="assets/images/airplane-icon.png" alt="Airplane Icon">
             <p>Flights</p>
         </button>
         <button class='header-icons'>
-            <img id= 'flight&hotel-icon' src="assets/images/globe-icon.png" alt="">
+            <img id= 'flight&hotel-icon' src="assets/images/globe-icon.png" alt="Globe Icon">
             <p>Flights + Hotel</p>
         </button>
         <button class='header-icons'>
-            <img id= 'car-icon' src="assets/images/car-icon.png" alt="">
+            <img id= 'car-icon' src="assets/images/car-icon.png" alt="Car Icon">
             <p>Car Rentals</p>
         </button>
         <button class='header-icons'>
-            <img id= 'attraction-icon' src="assets/images/ferris-wheel-icon.png" alt="">
+            <img id= 'attraction-icon' src="assets/images/ferris-wheel-icon.png" alt="Attraction Icon">
             <p>Attractions</p>
         </button>
         <button class='header-icons'>
-            <img id= 'taxi-icon' src="assets/images/taxi-icon.png" alt="">
+            <img id= 'taxi-icon' src="assets/images/taxi-icon.png" alt="Taxi Icon">
             <p>Airport Taxis</p>
         </button>
 
@@ -52,63 +52,135 @@
 
     </header>
     <main>
-        <h1>Find your next stay</h1>
-        <p>Search deals on hotels, homes, and much more</p>
-        <section id='search-tool'>
-            <form id='search-area'>
-                <select>
-                    <option>Where are you going?</option>
-                    <option>Scotland</option>
-                    <option>Edinburgh</option>
-                    <option>Isle of Skye</option>
-                    <option>Aviemore</option>
-                    <option>Inverness</option>
-                </select>
-            </form>
-            <form id='date-selector'>
-                <div>
-                    <label for="start">Start date:</label>
-                    <input type="date" id="start" name="trip-start" value="Start Date">
-                </div>
+        <section id ='booking-tool'>
+            <h1>Find your next stay</h1>
+            <p>Search deals on hotels, homes, and much more</p>
+            <section id='search-tool'>
+                <form id='search-area'>
+                    <select>
+                        <option>Where are you going?</option>
+                        <option>Scotland</option>
+                        <option>Edinburgh</option>
+                        <option>Isle of Skye</option>
+                        <option>Aviemore</option>
+                        <option>Inverness</option>
+                    </select>
+                </form>
+                <form id='date-selector'>
+                    <div>
+                        <label for="start">Start date:</label>
+                        <input type="date" id="start" name="trip-start" value="Start Date">
+                    </div>
 
-                <div>
-                    <label for="end">End date:</label>
-                    <input type="date" id="end" name="trip-end" value="End Date">
-                </div>
-            </form> 
-            <form id='customer-requirements'>
-                <select multiple>
-                    <optgroup label = 'Adults' >
-                        <option>1</option>
-                        <option>2</option>
-                        <option>3</option>
-                        <option>4</option>
-                        <option>5</option>
-                        <option>6</option>
-                    </optgroup>
-                    <optgroup label = 'Children' >
-                        <option>1</option>
-                        <option>2</option>
-                        <option>3</option>
-                        <option>4</option>
-                        <option>5</option>
-                        <option>6</option>
-                    </optgroup>
-                    <optgroup label = 'Rooms' >
-                        <option>1</option>
-                        <option>2</option>
-                        <option>3</option>
-                        <option>4</option>
-                        <option>5</option>
-                        <option>6</option>
-                    </optgroup>
-                </select>
-                <input type="submit" value="Search">
-            </form>
-       </section> 
-       <label for="travel-for-work">Are you Travelling for work?</label>
-       <input type="checkbox">
+                    <div>
+                        <label for="end">End date:</label>
+                        <input type="date" id="end" name="trip-end" value="End Date">
+                    </div>
+                </form> 
+                <form id='customer-requirements'>
+                    <select multiple>
+                        <optgroup label = 'Adults' >
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                            <option>6</option>
+                        </optgroup>
+                        <optgroup label = 'Children' >
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                            <option>6</option>
+                        </optgroup>
+                        <optgroup label = 'Rooms' >
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                            <option>6</option>
+                        </optgroup>
+                    </select>
+                    <input type="submit" value="Search">
+                </form>
+            </section> 
+            <input type="checkbox">
+            <label for="travel-for-work">Are you Travelling for work?</label>
+            
+        </section>
+
+        <Section id='covid-warning'>   
+            <img src="assets/images/Info-icon.png" alt="Info Icon">
+            <p>Get the advice you need. Check the latest COVID-19 restrictions before you travel.</p>
+            <a href="#">Learn more</a>
+        </Section>
+
+        <section id= 'deals'>
+            <img id = 'park' src="https://images.unsplash.com/photo-1519331379826-f10be5486c6f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1740&q=80" alt="Park Icon">
+            <div>
+                <p id='offer'>Save 15% or more</p>
+                <p>It's not too late to get away, with deals on stays all through 2021</p>
+                <button class='button-type3'>Explore Deals</button>
+            </div>
+            <p id ='close'>X</p>
+        </section>
+
+        <h2>Connect with other Travellers</h2>
+        <section id = 'other-travellers'>
+            <div>
+                <img src="https://cdn.londonandpartners.com/visit/london-organisations/tower-bridge/86830-640x360-tower-bridge-640.jpg" alt="Tower Bridge">
+                <p class ='bolder-text'>United Kingdom</p>
+                <p class = 'grey-small'>Travel Community</p>
+                <p class = 'grey-small'>685,908 travellers</p>
+            </div>
+
+            <div>
+                <img src="https://static.independent.co.uk/s3fs-public/thumbnails/image/2017/06/15/18/leaning-tower-pisa.jpg?width=982&height=726&auto=webp&quality=75" alt="Leaning tower of piza photo">
+                <p class ='bolder-text'>Travel Talk</p>
+                <p class = 'grey-small'>General Discussion</p>
+                <p class = 'grey-small'>559,436 travellers</p>
+            </div>
+
+            <div>
+                <img src="https://alittlecampy.com/wp-content/uploads/2018/01/community.jpg" alt="Community Image">
+                <p class ='bolder-text'>More Communities</p>
+                <p class = 'grey-small'>Travel Community</p>
+                <p class = 'grey-small'>685,908 travellers</p>
+            </div>
+        </section>
+
+        <h2>Homes Guests Love</h2>
+        <section id='homes-guests-love'>
+            <div>
+                <img src="https://www.essentialliving.co.uk/wp-content/uploads/2015/09/Studio_bed-WR-685x440.jpg" alt="Apartment">
+                <p class ='bolder-text'>Sugar Loft Apartments</p>
+                <p class = 'grey-small'>Rio De Janeiro</p>
+                <p class = 'bolder-text'>Starting from £47</p>
+            </div>
+            <div>
+                <img src="https://media.istockphoto.com/photos/europe-modern-complex-of-residential-buildings-picture-id1165384568?k=20&m=1165384568&s=612x612&w=0&h=CAnAr3uJtmkr0IQ2EPgm0IBoo8oCm-FEYEtyor8X_9I=" alt="Apartment">
+                <p class ='bolder-text'>Luxury Apartments Klara</p>
+                <p class = 'grey-small'>Split</p>
+                <p class = 'bolder-text'>Starting from £76</p>
+            </div>
+            <div>
+                <img src="https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YXBhcnRtZW50fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80" alt="Apartment">
+                <p class ='bolder-text'>Aparamento Benincampi</p>
+                <p class = 'grey-small'>Rome</p>
+                <p class = 'bolder-text'>Starting from £172</p>
+            </div>
+            <div>
+                <img src="https://s28126.pcdn.co/blogs/ask-experian/wp-content/uploads/How-to-Get-an-Apartment-With-Bad-Credit-1400x840-1.jpg" alt="Apartment">
+                <p class ='bolder-text'>Casa Malasaña</p>
+                <p class = 'grey-small'>Madrid</p>
+                <p class = 'bolder-text'>Starting from £254</p>
+            </div>
+            
+        </section>
+
     </main>
-    
 </body>
 </html>
