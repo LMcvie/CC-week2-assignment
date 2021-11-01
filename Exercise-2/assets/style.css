@@ -1,0 +1,80 @@
+main
+{
+    background-color: #003580;
+    color:white;
+    padding: 1rem;
+}
+#search-tool
+{
+    display:flex;
+    margin:0;
+    padding:0;
+    height: 4rem;
+    
+}
+
+#date-selector
+{
+    background-color: white;
+    display:flex;
+    width:20%;
+    height:3.0rem;
+    color:black;
+    border:solid 2px orange;
+    font-size:small;
+    
+}
+
+#customer-requirements
+{
+    display:flex;
+}
+
+#customer-requirements > select
+{
+    height:80%;
+    width:100%;
+}
+#customer-requirements > input
+{
+    height:80%;
+    width:100%;
+    padding-left:3.5rem;
+    padding-right:3.5rem;
+    border: solid 2px orange;
+    color:white;
+    background:dodgerblue;
+}
+#customer-requirements >select:hover
+{  
+    height:100%;
+
+}
+
+#date-selector >div
+{
+    display:flex;
+    flex-direction: column;
+    gap:0.5rem;
+    background-color: white;
+    border:transparent;
+    width:50%;
+}
+
+#date-selector > div > input
+{
+    width:60%; 
+}
+
+select
+{
+    width:20rem;
+    appearance:none;
+    padding: 1rem;
+    border: solid 2px orange;
+}
+
+h1
+{
+    margin:0;
+}

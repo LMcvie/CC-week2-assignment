@@ -2,7 +2,6 @@ body
 {
     margin:0;
     font-family: "Segoe UI", Helvetica, Arial, sans-serif;
-    
 }
 header
 {
@@ -16,18 +15,40 @@ header
     align-items: center;
 }
 
+#header-top > a 
+{
+    font-size: x-large;
+}
+
 #header-bottom
 {
     display:flex;
-   
-    
+    gap:0.25rem;
 }
 
+.header-icons > img
+{
+    height:40%;
+    width:40%;
+    padding-right:0.25rem;
+}
 .header-icons
 {
+    height:2rem;
+    width:4rem;
+    font-size:x-small;
     display:flex;
-    justify-content: flex-end;
-    align-items: flex-end;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    background: transparent;
+    border:none;
+}
+
+.header-icons:focus
+{
+    border:2px solid white;
+    border-radius: 38%;
 }
 
 #header-top > a

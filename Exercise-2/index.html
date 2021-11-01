@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/header.css">
+    <link rel="stylesheet" href="assets/style.css">
     <title>Boo-king</title>
 </head>
 <body>
@@ -22,16 +23,91 @@
     </section>
 
     <section id='header-bottom'>
-        <div class='header-icons'>
-            <img src="assets/images/UK-flag.png" alt="">
+        <button class='header-icons'>
+            <img id= 'stay-icon' src="assets/images/transparent-bed-icon.png" alt="">
             <p>Stays</p>
-        </div>
+        </button>
+        <button class='header-icons'>
+            <img id= 'flights-icon' src="assets/images/airplane-icon.png" alt="">
+            <p>Flights</p>
+        </button>
+        <button class='header-icons'>
+            <img id= 'flight&hotel-icon' src="assets/images/globe-icon.png" alt="">
+            <p>Flights + Hotel</p>
+        </button>
+        <button class='header-icons'>
+            <img id= 'car-icon' src="assets/images/car-icon.png" alt="">
+            <p>Car Rentals</p>
+        </button>
+        <button class='header-icons'>
+            <img id= 'attraction-icon' src="assets/images/ferris-wheel-icon.png" alt="">
+            <p>Attractions</p>
+        </button>
+        <button class='header-icons'>
+            <img id= 'taxi-icon' src="assets/images/taxi-icon.png" alt="">
+            <p>Airport Taxis</p>
+        </button>
 
     </section>
 
     </header>
     <main>
+        <h1>Find your next stay</h1>
+        <p>Search deals on hotels, homes, and much more</p>
+        <section id='search-tool'>
+            <form id='search-area'>
+                <select>
+                    <option>Where are you going?</option>
+                    <option>Scotland</option>
+                    <option>Edinburgh</option>
+                    <option>Isle of Skye</option>
+                    <option>Aviemore</option>
+                    <option>Inverness</option>
+                </select>
+            </form>
+            <form id='date-selector'>
+                <div>
+                    <label for="start">Start date:</label>
+                    <input type="date" id="start" name="trip-start" value="Start Date">
+                </div>
 
+                <div>
+                    <label for="end">End date:</label>
+                    <input type="date" id="end" name="trip-end" value="End Date">
+                </div>
+            </form> 
+            <form id='customer-requirements'>
+                <select multiple>
+                    <optgroup label = 'Adults' >
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                    </optgroup>
+                    <optgroup label = 'Children' >
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                    </optgroup>
+                    <optgroup label = 'Rooms' >
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                    </optgroup>
+                </select>
+                <input type="submit" value="Search">
+            </form>
+       </section> 
+       <label for="travel-for-work">Are you Travelling for work?</label>
+       <input type="checkbox">
     </main>
     
 </body>
