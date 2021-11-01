@@ -1,0 +1,87 @@
+body
+{
+    margin:0;
+    font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+    
+}
+header
+{
+    background-color:#003580;
+    padding: 1rem;
+}
+#header-top
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header-bottom
+{
+    display:flex;
+   
+    
+}
+
+.header-icons
+{
+    display:flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+#header-top > a
+{
+    text-decoration: none;
+    color:white;
+}
+
+#website-settings > a >img
+
+{
+    height:20px;
+    width:20px;
+} 
+
+#question-mark
+{
+    background-color:transparent;
+}
+
+#uk-flag
+{
+    border-radius:50%;
+}
+
+
+#website-settings
+{
+    display: flex;
+    margin:1rem;
+    justify-content: space-around;
+    align-items:center;
+    gap: 1rem;
+    
+}
+
+.button-type2
+{
+    border-color: dodgerblue;;
+    background-color:white;
+    color:dodgerblue;
+    height:2.5rem;
+}
+
+#button-type1
+{
+    border-color: white;;
+    background-color:#003580;
+    color:white;
+    height:2.5rem
+}
+
+#website-settings > a 
+{
+    text-decoration:none;
+    color:white;
+}
